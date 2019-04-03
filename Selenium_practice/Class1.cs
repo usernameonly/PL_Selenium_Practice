@@ -31,7 +31,7 @@ namespace Selenium_practice
         [Test]
         public void Test1()
         {
-
+            //test
             IWebDriver Webdriver = new ChromeDriver();
             Webdriver.Navigate().GoToUrl("https://localhost:44302/counter");
             Webdriver.FindElement(By.XPath("//a[@ng-reflect-router-link='/counter']")).Click();
